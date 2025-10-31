@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jenkinsci
+  description: jenkinsintegeration
+  annotations:
+    jenkins.io/job-full-name: 'golang-jenkins-pipeline'
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/kartik494
